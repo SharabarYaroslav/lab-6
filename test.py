@@ -89,11 +89,6 @@ cb=Combobox(tk, values=text_variante)
 #Питання №6
 lbl12 = Label(tk, text="Питання №6", font=font_title)
 lbl13= Label(tk, text="Якого року було створено мову праграмування Python?", font=font_q)
-
-def getV(tk):
-    a = scale.get()
-    print("Отримане значення: ", a)
-
 scale = Scale(tk, orient=HORIZONTAL, length=300, from_=1990, to = 2000, tickinterval=5,
                resolution=1)
 
